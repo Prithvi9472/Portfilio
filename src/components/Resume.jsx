@@ -96,30 +96,25 @@ const Resume = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-r from-gray-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto">
         {/* Header with print button */}
         <div className="flex justify-between items-center mb-8">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-800">Resume</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-white">Resume</h1>
             <div className="h-1 w-24 bg-blue-600 mt-2"></div>
           </div>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded-lg flex items-center gap-2 transition-colors">
-            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M19 8H5C3.34 8 2 9.34 2 11V17H6V21H18V17H22V11C22 9.34 20.66 8 19 8ZM16 19H8V14H16V19ZM19 12C18.45 12 18 11.55 18 11C18 10.45 18.45 10 19 10C19.55 10 20 10.45 20 11C20 11.55 19.55 12 19 12ZM18 3H6V7H18V3Z" />
-            </svg>
-            Print Resume
-          </button>
+
         </div>
 
         {/* Profile Card */}
         <div className="bg-white rounded-xl shadow-md overflow-hidden mb-8">
           <div className="bg-gradient-to-r from-blue-600 to-blue-400 p-6 text-white">
             <h2 className="text-2xl font-bold">PRITHVI RAJ</h2>
-            <p className="opacity-90">MCA (Master of Computer Applications)</p>
+            <p className="opacity-90 ">Software Developer | Android App developer</p>
           </div>
-          
-          <div className="p-6">
+
+          <div className="p-6 ">
             <div className="flex flex-wrap gap-y-3">
               <div className="w-full md:w-1/2 flex items-center gap-3">
                 <div className="bg-blue-100 p-2 rounded-full text-blue-600">
@@ -137,10 +132,10 @@ const Resume = () => {
                 <div className="bg-blue-100 p-2 rounded-full text-blue-600">
                   <Icons.LinkedIn />
                 </div>
-                <a 
-                  href="https://www.linkedin.com/in/prithvir99" 
+                <a
+                  href="https://www.linkedin.com/in/prithvir99"
                   className="text-blue-600 hover:text-blue-800 transition-colors"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   linkedin.com/in/prithvir99
@@ -150,28 +145,28 @@ const Resume = () => {
                 <div className="bg-blue-100 p-2 rounded-full text-blue-600">
                   <Icons.GitHub />
                 </div>
-                <a 
-                  href="https://github.com/Prithvi9472" 
+                <a
+                  href="https://github.com/Prithvi9472"
                   className="text-blue-600 hover:text-blue-800 transition-colors"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   github.com/Prithvi9472
                 </a>
               </div>
             </div>
-            
+
             <div className="mt-6 pt-6 border-t border-gray-100">
               <h3 className="font-semibold text-gray-800 mb-2">Professional Summary</h3>
               <p className="text-gray-600">
-                Motivated and detail-oriented software developer with hands-on experience in full-stack development 
-                using Python, Django, ReactJS, Flutter, and MySQL. Proficient in API integration, responsive UI design, 
+                Motivated and detail-oriented software developer with hands-on experience in full-stack development
+                using Python, Django, ReactJS, Flutter, and MySQL. Proficient in API integration, responsive UI design,
                 and agile development practices. Passionate about building scalable and user-friendly applications.
               </p>
             </div>
           </div>
         </div>
-        
+
         {/* Main content with two columns on desktop */}
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left column */}
@@ -186,7 +181,7 @@ const Resume = () => {
                   <h2 className="text-xl font-bold text-gray-800">Education</h2>
                 </div>
               </div>
-              
+
               <div className="p-6 space-y-6">
                 {/* Education item 1 */}
                 <div className="border-l-4 border-blue-500 pl-4">
@@ -197,7 +192,7 @@ const Resume = () => {
                     <span className="bg-blue-100 text-blue-700 text-sm px-2 py-1 rounded-full">CGPA: 81.6%</span>
                   </div>
                 </div>
-                
+
                 {/* Education item 2 */}
                 <div className="border-l-4 border-blue-500 pl-4">
                   <h3 className="font-bold text-gray-800">Bachelor of Computer Applications (BCA)</h3>
@@ -209,7 +204,7 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Work Experience Section */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="border-b border-gray-100">
@@ -220,7 +215,7 @@ const Resume = () => {
                   <h2 className="text-xl font-bold text-gray-800">Work Experience</h2>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <div>
                   <div className="flex justify-between flex-wrap">
@@ -230,30 +225,49 @@ const Resume = () => {
                     </span>
                   </div>
                   <p className="text-gray-700 font-medium mb-3">Luytens Technology Solutions</p>
-                  
+
+                  <p className="text-gray-700 font-medium mb-3">Luytens Technology Solutions</p>
+
                   <ul className="space-y-2 text-gray-600">
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
-                      Developed <span className="font-medium">Job Genee</span> portal using Python, Django, ReactJS with secure JWT auth.
+                      Spearheaded the development of Job Genee, a job portal platform, integrating job listings, user profiles, and advanced search features using Python, Django, and ReactJS.
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
-                      Designed REST APIs, responsive UIs, and managed MySQL databases.
+                      Engineered RESTful APIs with Django, implementing JWT authentication to ensure robust and secure user authentication and authorization.
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
-                      Dockerized deployment and conducted testing via Postman, ThunderClient.
+                      Crafted intuitive, responsive user interfaces with ReactJS and CSS, optimizing the experience across multiple devices and platforms.
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-500 mr-2">•</span>
-                      Collaborated using GitHub and agile practices.
+                      Streamlined data management by designing and optimizing MySQL database schemas and queries for fast, efficient data storage and retrieval.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      Implemented Docker for containerization, promoting consistent development environments and simplifying the deployment process.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      Conducted comprehensive API testing using ThunderClient and Postman, ensuring seamless integration between front-end and back-end services.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      Collaborated effectively with cross-functional teams using GitHub, managing version control, code reviews, and maintaining a collaborative development environment.
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      Led performance, cross-browser, and security testing to ensure the application’s scalability, reliability, and optimal user experience.
                     </li>
                   </ul>
+
                 </div>
               </div>
             </div>
           </div>
-          
+
           {/* Right column */}
           <div className="w-full lg:w-5/12 space-y-8">
             {/* Skills Section */}
@@ -266,7 +280,7 @@ const Resume = () => {
                   <h2 className="text-xl font-bold text-gray-800">Technical Skills</h2>
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <div className="space-y-4">
                   {skills.map((skillGroup, index) => (
@@ -284,7 +298,7 @@ const Resume = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Projects Section */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden">
               <div className="border-b border-gray-100">
@@ -295,13 +309,13 @@ const Resume = () => {
                   <h2 className="text-xl font-bold text-gray-800">Projects</h2>
                 </div>
               </div>
-              
+
               <div className="divide-y divide-gray-100">
                 {projects.map((project, index) => (
                   <div key={index} className="p-6">
                     <div className="flex justify-between items-start mb-2">
                       <h3 className="font-bold text-gray-800">{project.name}</h3>
-                      <a 
+                      <a
                         href={project.url}
                         target="_blank"
                         rel="noopener noreferrer"

@@ -57,13 +57,13 @@ const Projects = () => {
   };
 
   return (
-    <section className="px-6 py-20 bg-gradient-to-b from-gray-50 to-gray-100 text-gray-800">
+    <section className="px-6 py-20 bg-gradient-to-r from-gray-900 to-gray-800 text-gray-800">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center mb-12">
           <div className="w-2 h-16 bg-blue-600 rounded-full mr-4"></div>
           <div>
-            <h2 className="text-4xl font-bold mb-2 text-gray-900">Projects</h2>
-            <p className="text-gray-600 text-lg">Recent work I've built and contributed to</p>
+            <h2 className="text-4xl font-bold mb-2 text-white">Projects</h2>
+            <p className="text-white text-lg">Recent work I've built and contributed to</p>
           </div>
         </div>
 

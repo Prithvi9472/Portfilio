@@ -41,11 +41,11 @@ const Education = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 p-8 md:p-12 lg:p-16">
+    <div className="min-h-screen bg-gradient-to-r from-gray-900 to-gray-800 p-8 md:p-12 lg:p-16">
       {/* Header with animation */}
       <div className="max-w-4xl mx-auto mb-12">
         <div className="inline-block">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 flex items-center gap-3 mb-3">
+          <h2 className="text-3xl md:text-4xl font-bold text-white flex items-center gap-3 mb-3">
             <span className="bg-blue-600 text-white p-2 rounded-lg">
               <GraduationCapIcon />
             </span>
@@ -53,7 +53,7 @@ const Education = () => {
           </h2>
           <div className="h-1 w-1/2 bg-gradient-to-r from-blue-600 to-blue-400 rounded-full"></div>
         </div>
-        <p className="text-gray-600 mt-4 max-w-2xl">
+        <p className="text-white mt-4 text-2xl font-bold max-w-1xl">
           My academic journey has equipped me with strong foundations in computer science and practical development skills.
         </p>
       </div>
