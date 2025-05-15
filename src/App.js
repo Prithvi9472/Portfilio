@@ -7,6 +7,7 @@ import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import Landing from "./components/Landing";
 
 function App() {
   return (
@@ -15,12 +16,13 @@ function App() {
         <Sidebar />
         <div className="flex-1 ml-[280px]"> {/* Leave space for Sidebar */}
           <Routes>
-            <Route path="/" element={<Hero />} />
+            <Route path="/Hero" element={<Hero />} />
             <Route path="/About" element={<About />} />
             <Route path="/Resume" element={<Resume />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/Education" element={<Education />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/" element={<Landing />} />
 
 
           </Routes>

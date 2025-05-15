@@ -1,11 +1,16 @@
 import React, { useState } from "react";
+import Lts from "./Assests/Lts.png";
+import Job from "./Assests/Job.png";
+import Techspo from "./Assests/Techspo.png";
+import Blink1 from "./Assests/Blink1.png"
+
 import { FaGithub, FaExternalLinkAlt, FaCode, FaInfoCircle } from "react-icons/fa";
 
 const projects = [
   {
     title: "Luytens WebPage",
     link: "https://github.com/Prithvi9472/WebPage",
-    image: "/api/placeholder/800/600",
+    image: Lts,
     tech: ["React", "CSS", "Django", "EmailJS"],
     description: [
       "Developed a responsive frontend using ReactJS and CSS.",
@@ -16,7 +21,7 @@ const projects = [
   {
     title: "Job Portal (JobGenee)",
     link: "https://github.com/Prithvi9472/JobGenee_ALL",
-    image: "/api/placeholder/800/600",
+    image: Job,
     tech: ["React", "Django", "Docker"],
     description: [
       "Built a job portal with job listings, search filters, and user profile management.",
@@ -27,7 +32,7 @@ const projects = [
   {
     title: "TechSpo – E-commerce Platform",
     link: "https://github.com/Prithvi9472/E-commerce",
-    image: "/api/placeholder/800/600",
+    image: Techspo,
     tech: ["React", "Strapi", "CSS"],
     description: [
       "Built a responsive e-commerce web app with shopping cart, order management, and wishlist features.",
@@ -38,7 +43,7 @@ const projects = [
   {
     title: "Blinkit (UI Clone)",
     link: "https://github.com/Prithvi9472/Blinkit",
-    image: "/api/placeholder/800/600",
+    image: Blink1,
     tech: ["Flutter", "Dart"],
     description: [
       "Developed a mobile UI clone of the Blinkit grocery app using Flutter and Dart.",
