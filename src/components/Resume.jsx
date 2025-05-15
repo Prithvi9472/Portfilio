@@ -92,7 +92,17 @@ const Resume = () => {
         "Built core screens: Home, Cart, Category and Login",
         "Designed responsive, user-friendly layouts optimized for different device sizes."
       ]
+    },
+    {
+      name: "Personal Portfolio",
+      url: "https://github.com/Prithvi9472/Portfilio",
+      desc: [
+      "Developed a modern personal portfolio using React and Tailwind CSS.",
+      "Features include sidebar navigation with emojis, project showcases, and a functional contact form with EmailJS.",
+      "Fully responsive design with route-based navigation using React Router.",
+      ]
     }
+    
   ];
 
   return (

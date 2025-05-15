@@ -3,6 +3,7 @@ import Lts from "./Assests/Lts.png";
 import Job from "./Assests/Job.png";
 import Techspo from "./Assests/Techspo.png";
 import Blink1 from "./Assests/Blink1.png"
+import Port from "./Assests/Port.png";
 
 import { FaGithub, FaExternalLinkAlt, FaCode, FaInfoCircle } from "react-icons/fa";
 
@@ -49,6 +50,17 @@ const projects = [
       "Developed a mobile UI clone of the Blinkit grocery app using Flutter and Dart.",
       "Built core screens: Home, Cart, Category, and Login.",
       "Designed responsive, user-friendly layouts optimized for different device sizes.",
+    ],
+  },
+  {
+    title: "Personal Portfolio",
+    link: "https://github.com/Prithvi9472/Portfilio", // Change if private or not uploaded yet
+    image: Port, // Replace with a real image or import later
+    tech: ["React", "Tailwind CSS", "EmailJS", "React Router"],
+    description: [
+      "Currently developing a modern personal portfolio using React and Tailwind CSS.",
+      "Features include sidebar navigation with emojis, project showcases, and a functional contact form with EmailJS.",
+      "Fully responsive design with route-based navigation using React Router.",
     ],
   },
 ];
